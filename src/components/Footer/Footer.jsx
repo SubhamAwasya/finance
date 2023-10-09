@@ -3,20 +3,29 @@ import "./footer.css";
 
 function Footer() {
   const arr = [
-    "fa-solid fa-gear",
-    "fa-solid fa-cube",
-    "fa-solid fa-shield-halved",
-    "fa-solid fa-bug",
-    "fa-solid fa-microchip",
-    "fa-solid fa-ghost",
-    "fa-solid fa-chess-rook",
-    "fa-solid fa-chess-rook",
-    "fa-solid fa-dice-d20",
+    "geeks",
+    "for",
+    "geeks",
+    "a",
+    "portal",
+    "to",
+    "learn",
+    "can",
+    "be",
+    "computer",
+    "science",
+    "zoom",
+    "yup",
+    "fire",
+    "in",
+    "be",
+    "data",
+    "geeks",
   ];
   return (
     <div className="footer-container">
       <div>
-        <div>More Products</div>
+        <h1>More Products</h1>
         <list>
           {arr.map((e) => (
             <li>{e}</li>
@@ -24,7 +33,7 @@ function Footer() {
         </list>
       </div>
       <div>
-        <div>More Products</div>
+        <h1>More Products</h1>
         <list>
           {arr.map((e) => (
             <li>{e}</li>
@@ -32,7 +41,7 @@ function Footer() {
         </list>
       </div>
       <div>
-        <div>More Products</div>
+        <h1>More Products</h1>
         <list>
           {arr.map((e) => (
             <li>{e}</li>

@@ -4,6 +4,7 @@
   text-align: center;
   min-width: 6rem;
   max-width: 10rem;
+  cursor: pointer;
 }
 .card-img {
   height: 5rem;

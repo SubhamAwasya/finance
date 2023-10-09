@@ -26,7 +26,6 @@
 .right img {
   height: 15rem;
 }
-
 .card-container {
   margin-top: 1rem;
   display: grid;
@@ -40,6 +39,9 @@
 @media screen and (max-width: 1000px) {
   .left {
     display: none;
+  }
+  .right img {
+    height: 14rem;
   }
   .header-top-container {
     flex-direction: column;

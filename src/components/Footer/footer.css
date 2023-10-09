@@ -1,0 +1,12 @@
+.footer-container {
+  color: white;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  padding: 2rem 12%;
+}
+list li {
+  padding-left: 1rem;
+  list-style: none;
+}

@@ -9,6 +9,13 @@
   height: 5rem;
   background-color: aquamarine;
   border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-img i {
+  font-size: 2rem;
+  color: rgb(184, 5, 255);
 }
 /* .card-text {
 } */

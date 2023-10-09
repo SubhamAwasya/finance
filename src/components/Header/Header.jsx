@@ -3,14 +3,32 @@ import "./header.css";
 import Card from "../Card/Card";
 
 function Header() {
+  const arr = [
+    "fa-solid fa-gear",
+    "fa-solid fa-cube",
+    "fa-solid fa-shield-halved",
+    "fa-solid fa-bug",
+    "fa-solid fa-microchip",
+    "fa-solid fa-ghost",
+    "fa-solid fa-chess-rook",
+    "fa-solid fa-chess-rook",
+    "fa-solid fa-dice-d20",
+  ];
+  const createCard = () => {
+    const randomIcone = arr[Math.floor(Math.random() * arr.length)];
+    console.log(randomIcone);
+    return <Card icone={randomIcone} />;
+  };
   return (
     <div className="header-container">
       <div className="header-top-container">
         <div className="left">
           <h1>Let's find you</h1>
           <h1>the Best Insurance</h1>
-          <div class="usp">
-            <h3 class="lowest-price">50+ insurers with of the best prices</h3>
+          <div className="usp">
+            <h3 className="lowest-price">
+              50+ insurers with of the best prices
+            </h3>
             <h3>Quick, easy & hassle free</h3>
           </div>
         </div>
@@ -19,26 +37,24 @@ function Header() {
         </div>
       </div>
       <div className="card-container">
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
+        {createCard()}
       </div>
     </div>
   );

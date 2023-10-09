@@ -1,0 +1,35 @@
+.navbar-container {
+  width: auto;
+  height: 4rem;
+  display: flex;
+  padding: 0 12%;
+  font-size: 0.9rem;
+  color: #212121;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+}
+.navbar-logo {
+  font-size: 2rem;
+  font-weight: 10000;
+  cursor: pointer;
+}
+.navbar-links a {
+  margin: 0 1rem;
+}
+.navbar-btn {
+  border-style: none;
+  border: 2px solid rgb(0, 106, 255);
+  background-color: white;
+  border-radius: 0.8rem;
+  padding: 0.4rem 0.8rem;
+  cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+  .navbar-container {
+    padding: 0 0.6rem;
+  }
+  .navbar-links a {
+    display: none;
+  }
+}

@@ -1,0 +1,14 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-width: 6rem;
+  max-width: 10rem;
+}
+.card-img {
+  height: 5rem;
+  background-color: aquamarine;
+  border-radius: 1rem;
+}
+/* .card-text {
+} */
